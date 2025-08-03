@@ -4,20 +4,29 @@ body {
 }
 
 h1 {
-    text-align: center;
-    color: green
+    color: green;
 }
+
+.heading {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
 
 a {
     text-decoration: none;
 }
 
 a:hover {
-    color: green
+    color: green;
 }
 
 a:active {
-    color: grey
+    color: grey;
 }
 
 a:visited  {
