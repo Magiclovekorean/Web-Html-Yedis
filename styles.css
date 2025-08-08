@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+a:visited  {
+    color: blue;
+}
+
 a:hover {
     color: green;
 }
@@ -32,9 +36,6 @@ a:active {
     color: grey;
 }
 
-a:visited  {
-    color: blue;
-}
 
 img {
     display: block;
