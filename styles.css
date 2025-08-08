@@ -1,21 +1,24 @@
 body {
     font-size: 20px;
-    font-family: Arial, sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    background-color: azure;
 }
 
 h1 {
     color: green;
 }
 
-.heading {
+h2 {
+    color:burlywood;
+}
+
+header {
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-
-
 
 a {
     text-decoration: none;
@@ -33,6 +36,21 @@ a:visited  {
     color: blue;
 }
 
-ul {
-    text-align: justify;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-title {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    color:darkgreen
+}
+
+.jedi {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color:rgba(42, 47, 25, 0.916);
 }
