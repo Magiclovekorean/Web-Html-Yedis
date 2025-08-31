@@ -11,7 +11,7 @@ body {
 
 h1 {
     color: green;
-
+    margin-top: 20px;
 }
 
 h2 {
@@ -65,11 +65,14 @@ img {
 
 nav {
     background-color: #c7ff74;
-    height: auto;
+    height:50px;
     width: 100%;
     margin-bottom: 10px;
     position: fixed;
     top: 0;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
 }
 
 nav li {
