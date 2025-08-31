@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-size: 20px;
     font-family: 'Orbitron', sans-serif;
@@ -6,15 +11,17 @@ body {
 
 h1 {
     color: green;
+
 }
 
 h2 {
-    color:burlywood;
+    color:rgb(52, 79, 231);
 }
 
 header {
     text-align: center;
     display: block;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -51,7 +58,27 @@ img {
 }
 
 .jedi {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    color:rgba(42, 47, 25, 0.916);
+    margin: 2% 40px;
+    color:#2a2f19ea;
+    list-style: circle;
+}
+
+nav {
+    background-color: #c7ff74;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    font-size: 19px;
+    margin-right: 20px;
+}
+
+main ul  {
+    color: #7b4876;
 }
